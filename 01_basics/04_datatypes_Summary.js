@@ -30,3 +30,27 @@ const myfunction = function(){
 }
 
 console.log(typeof myfunction)
+
+//********************************************************* */
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let mySchoolName= "B.n.c high School"
+
+let anothername = mySchoolName
+anothername="76jhgf7457"
+
+console.log(mySchoolName)
+console.log(anothername)
+
+let userOne={
+    email:"fgfdg@gmail.com",
+    upi: "dhgd@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email = "ff@hhg.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
